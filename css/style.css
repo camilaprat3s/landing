@@ -1,0 +1,113 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Added 'sans-serif' */
+  text-align: center;
+}
+
+.wrapper {
+  width: 90%; /* Added a semicolon */
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  position: fixed;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  text-align: left;
+  line-height: 100px;
+}
+
+.logo a {
+  /* Updated property name from 'text-decoration' to 'text-align' */
+  text-align: left;
+  font-family: 'Pacifico';
+  color: cadetblue;
+  letter-spacing: 4px;
+}
+
+.banner-area {
+  background-image: url('Users/camilaprates/code/camilaprat3s/fullstack-challenges/04-Front-End/02-CSS-components/03-Landing-page/landing/images/background.png');
+  background-size: cover;
+  background-position: center center; /* Added semicolons */
+  top: 100px;
+  height: 100px; /* Added a semicolon */
+  width: 100%;
+  position: fixed;
+}
+
+.banner-area::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%; /* Added a semicolon */
+  opacity: 0.7; /* Updated opacity value */
+  z-index: -1;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif; /* Added 'sans-serif' */
+}
+
+a {
+  text-decoration: none;
+}
+/* tabs.css */
+
+/* Style for the container holding the tabs */
+.tabs {
+  display: flex;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+/* Style for individual tab links */
+.tab {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Style for the active tab */
+.tab.active {
+  background-color: #3498db;
+  color: #fff;
+  border: 1px solid #2674a0;
+}
+/* avatar.css */
+
+/* Style for the avatar container */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Style for the avatar image */
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Custom design below! */
